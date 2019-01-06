@@ -1,0 +1,77 @@
+.h4
+{
+ color:#021b52;
+}
+.box {
+  background:#fff;
+  transition:all 0.2s ease;
+  border:2px dashed #dadada;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-clip: padding-box;
+  padding:0 20px 20px 20px;
+  height:500px;
+}
+
+.box:hover {
+  border:2px solid #525C7A;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #021c52;
+    border-color: #0a1b3e;
+}
+.box span.box-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.box .box-content {
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    margin:right;
+    cursor: inherit;
+    display: block;
+    height:23px !important;
+	font-size: 13px !important;
+	line-height: 14px !important;
+	    
+}
+#img-upload{
+    width: 200px;
+    height:200px;
+    padding-right: 25px;
+}
+.navbar {
+   
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    background-color: #021b52;
+    font-size: 15px !important;
+    letter-spacing: 4px;
+}

@@ -1,0 +1,48 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+      margin-bottom: 60px;
+}
+
+.custom-header-panel{
+    background-color: #132142 !important;
+    border-color: #132142 !important;
+    color: white;
+}
+form * {
+    border-radius:0 !important;
+    
+	line-height: 8px !important;
+}
+form > fieldset > legend {
+    font-size:120%;
+}
+.footer-bottom {
+	background: #132142;
+}
+#wrapper {
+    padding-left: 0;    
+}
+#page-wrapper {
+    width: 100%;        
+    padding: 0;
+    
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 220px;
+    }
+
+    #page-wrapper {
+        padding: 22px 10px;
+    }
+}
+/* align glyph */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
